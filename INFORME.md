@@ -4,10 +4,10 @@ Completa este informe después de implementar las tres tareas MPI. Ejecuta las c
 
 ## Entorno
 
-- Equipo:
-- Versión del contenedor:
+- Equipo: procesador Intel Core i3-1115G4 (2 núcleos / 4 hilos), 16 GB de RAM (2 × 8 GB), Windows + Docker Desktop>
+- Versión del contenedor: augustosalazar/slim-mpi:2
 - Cantidad de repeticiones por medición: 3
-- Valor común de `N` elegido:
+- Valor común de `N` elegido: 2 (recomendado por `detectar_procesos_mpi.py`)
 
 ## Comparación final con el mismo `N`
 
