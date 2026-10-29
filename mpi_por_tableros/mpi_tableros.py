@@ -10,8 +10,8 @@ from mpi4py import MPI
 RAIZ = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(RAIZ))
 
-from baseline_secuencial import leer_seeds  # noqa: E402
-from sudoku import resolver_con_tiempo  # noqa: E402
+from baseline_secuencial import leer_seeds  
+from sudoku import resolver_con_tiempo  
 
 TAG_PEDIR, TAG_TAREA, TAG_FIN = 1, 2, 3
 
@@ -125,7 +125,6 @@ def main():
         proceso_principal(comm, seleccionados, bool(args.id))
     else:
         trabajador(comm, seleccionados)
-
 
 if __name__ == "__main__":
     main()
