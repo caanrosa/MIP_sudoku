@@ -1,0 +1,6 @@
+{
+    "python.analysis.extraPaths": [
+        "./mpi_por_ramas",
+        "./mpi_por_tableros"
+    ]
+}
