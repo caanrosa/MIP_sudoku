@@ -16,17 +16,17 @@ Sustituye `N` por el valor elegido en `INFORME.md`.
 ### macOS (Terminal)
 
 ```bash
-docker run --rm -v "$(pwd):/app" augustosalazar/slim-mpi:2 mpiexec --allow-run-as-root --use-hwthread-cpus --oversubscribe -n N python /app/mpi_por_tableros/mpi_tableros.py --all
+docker run --rm -v "$(pwd):/app" augustosalazar/slim-mpi:2 mpiexec --allow-run-as-root --use-hwthread-cpus --oversubscribe -n 2 python /app/mpi_por_tableros/mpi_tableros.py --all
 ```
 
 ### Windows (PowerShell)
 
 ```powershell
-docker run --rm -v "${PWD}:/app" augustosalazar/slim-mpi:2 mpiexec --allow-run-as-root --use-hwthread-cpus --oversubscribe -n N python /app/mpi_por_tableros/mpi_tableros.py --all
+docker run --rm -v "${PWD}:/app" augustosalazar/slim-mpi:2 mpiexec --allow-run-as-root --use-hwthread-cpus --oversubscribe -n 2 python /app/mpi_por_tableros/mpi_tableros.py --all
 ```
 
 Un solo tablero: reemplaza `--all` por `--id 7`.
 
 ## Resultados
 
-Ver `../INFORME.md`.
+Todo en `../INFORME.md`.

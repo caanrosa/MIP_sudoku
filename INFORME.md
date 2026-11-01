@@ -12,7 +12,7 @@
 Valor común de `N`: **2**, usado en todas las filas MPI. Cada `mpiexec` lleva
 `--allow-run-as-root --use-hwthread-cpus --oversubscribe`. El tiempo MPI es el
 tiempo real medido en el proceso 0, desde el inicio del reparto hasta recibir todos
-los resultados.
+los resultados. En todas las corridas se procesaron los 30 IDs (30/30 resueltos).
 
 Mediciones individuales (s):
 

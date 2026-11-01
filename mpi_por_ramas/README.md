@@ -14,13 +14,13 @@ Sustituye `N` por el valor elegido en `INFORME.md`.
 Un tablero:
 
 ```powershell
-docker run --rm -v "${PWD}:/app" augustosalazar/slim-mpi:2 mpiexec --allow-run-as-root --use-hwthread-cpus --oversubscribe -n N python /app/mpi_por_ramas/mpi_ramas.py --id 7
+docker run --rm -v "${PWD}:/app" augustosalazar/slim-mpi:2 mpiexec --allow-run-as-root --use-hwthread-cpus --oversubscribe -n 2 python /app/mpi_por_ramas/mpi_ramas.py --id 7
 ```
 
 Todos los tableros:
 
 ```powershell
-docker run --rm -v "${PWD}:/app" augustosalazar/slim-mpi:2 mpiexec --allow-run-as-root --use-hwthread-cpus --oversubscribe -n N python /app/mpi_por_ramas/mpi_ramas.py --all
+docker run --rm -v "${PWD}:/app" augustosalazar/slim-mpi:2 mpiexec --allow-run-as-root --use-hwthread-cpus --oversubscribe -n 2 python /app/mpi_por_ramas/mpi_ramas.py --all
 ```
 
 ### macOS (Terminal)
@@ -29,4 +29,4 @@ Cambia `"${PWD}:/app"` por `"$(pwd):/app"` en los comandos anteriores.
 
 ## Resultados
 
-Ver `../INFORME.md`.
+Todo en `../INFORME.md`.
